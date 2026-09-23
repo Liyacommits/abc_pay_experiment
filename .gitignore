@@ -9,7 +9,8 @@
 !.yarn/plugins
 !.yarn/releases
 !.yarn/versions
-.next/
+
+# Environments
 .env
 .env.local
 .env*.local
