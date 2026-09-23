@@ -1,0 +1,52 @@
+{
+  "paymentRequests": {
+    "pay_1790170613262_8krhjr": {
+      "id": "pay_1790170613262_8krhjr",
+      "reference": "ARC-CT9D4HG",
+      "network": "arc-mainnet",
+      "recipientAddress": "0x259cf79E77C92A14E0cF6B65Ce7489fCE823388d",
+      "amount": 10.5,
+      "currency": "USDC",
+      "label": "ABCpay",
+      "message": "test",
+      "memo": "test",
+      "paymentUrl": "ethereum:0x259cf79E77C92A14E0cF6B65Ce7489fCE823388d@5042002?value=10500000000000000000",
+      "metaMaskDeepLink": "https://metamask.app.link/send/0x259cf79E77C92A14E0cF6B65Ce7489fCE823388d?value=10500000000000000000&chainId=5042002",
+      "transactionPayload": {
+        "to": "0x259cf79E77C92A14E0cF6B65Ce7489fCE823388d",
+        "value": "10500000000000000000",
+        "valueHex": "0x91b77e5e5d9a0000",
+        "chainId": 5042002,
+        "chainIdHex": "0x4cef52",
+        "data": "0x74657374"
+      },
+      "status": "PENDING",
+      "createdAt": 1790170613262,
+      "expiresAt": 1790174213262
+    },
+    "pay_1790170826503_qioiqh": {
+      "id": "pay_1790170826503_qioiqh",
+      "reference": "ARC-O92IMP7",
+      "network": "arc-testnet",
+      "recipientAddress": "0xd8dA6BF26964aF9D7eEd9e03E53415D37aA96045",
+      "amount": 25,
+      "currency": "USDC",
+      "label": "Online Store",
+      "message": "Invoice #8921",
+      "memo": "INV-8921",
+      "paymentUrl": "ethereum:0xd8dA6BF26964aF9D7eEd9e03E53415D37aA96045@5042002?value=25000000000000000000",
+      "metaMaskDeepLink": "https://metamask.app.link/send/0xd8dA6BF26964aF9D7eEd9e03E53415D37aA96045?value=25000000000000000000&chainId=5042002",
+      "transactionPayload": {
+        "to": "0xd8dA6BF26964aF9D7eEd9e03E53415D37aA96045",
+        "value": "25000000000000000000",
+        "valueHex": "0x015af1d78b58c40000",
+        "chainId": 5042002,
+        "chainIdHex": "0x4cef52",
+        "data": "0x494e562d38393231"
+      },
+      "status": "PENDING",
+      "createdAt": 1790170826503,
+      "expiresAt": 1790174426503
+    }
+  }
+}

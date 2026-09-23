@@ -1,0 +1,91 @@
+{
+  "paymentRequests": {
+    "req_1790168300398_19gjs": {
+      "id": "req_1790168300398_19gjs",
+      "reference": "REFI5Q7KB8B",
+      "recipientAddress": "7xKXtg2CW87d97TXJSDpbD5jBkheTqA83TZRuJosgAsU",
+      "amount": 25.5,
+      "label": "ABC Merchant Store",
+      "message": "Payment for Service",
+      "memo": "INV-1002",
+      "solanaPayUrl": "solana:7xKXtg2CW87d97TXJSDpbD5jBkheTqA83TZRuJosgAsU?amount=25.5&spl-token=EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v&reference=REFI5Q7KB8B&label=ABC+Merchant+Store&message=Payment+for+Service&memo=INV-1002",
+      "status": "PENDING",
+      "createdAt": 1790168300398,
+      "expiresAt": 1790170100398
+    },
+    "pay_1790169683122_ct5go3": {
+      "id": "pay_1790169683122_ct5go3",
+      "reference": "ARC-UO04Z8Q",
+      "network": "arc-testnet",
+      "recipientAddress": "0xd8dA6BF26964aF9D7eEd9e03E53415D37aA96045",
+      "amount": 12.5,
+      "currency": "USDC",
+      "label": "Coffee & Pastry",
+      "message": "Invoice #4029",
+      "memo": "ORDER-4029",
+      "paymentUrl": "ethereum:0xd8dA6BF26964aF9D7eEd9e03E53415D37aA96045@5042002?value=12500000000000000000",
+      "metaMaskDeepLink": "https://metamask.app.link/send/0xd8dA6BF26964aF9D7eEd9e03E53415D37aA96045?value=12500000000000000000&chainId=5042002",
+      "transactionPayload": {
+        "to": "0xd8dA6BF26964aF9D7eEd9e03E53415D37aA96045",
+        "value": "12500000000000000000",
+        "valueHex": "0xad78ebc5ac620000",
+        "chainId": 5042002,
+        "chainIdHex": "0x4cef52",
+        "data": "0x4f524445522d34303239"
+      },
+      "status": "CONFIRMED",
+      "createdAt": 1790169683122,
+      "expiresAt": 1790173283122,
+      "txHash": "sim_0x8f7d9a8c1e2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d"
+    },
+    "pay_1790170075603_o6j24v": {
+      "id": "pay_1790170075603_o6j24v",
+      "reference": "ARC-QYGWFSD",
+      "network": "arc-mainnet",
+      "recipientAddress": "0x259cf79E77C92A14E0cF6B65Ce7489fCE823388d",
+      "amount": 0.5,
+      "currency": "USDC",
+      "label": "ABC pay",
+      "message": "test",
+      "memo": "Order #4092",
+      "paymentUrl": "ethereum:0x259cf79E77C92A14E0cF6B65Ce7489fCE823388d@5042002?value=500000000000000000",
+      "metaMaskDeepLink": "https://metamask.app.link/send/0x259cf79E77C92A14E0cF6B65Ce7489fCE823388d?value=500000000000000000&chainId=5042002",
+      "transactionPayload": {
+        "to": "0x259cf79E77C92A14E0cF6B65Ce7489fCE823388d",
+        "value": "500000000000000000",
+        "valueHex": "0x06f05b59d3b20000",
+        "chainId": 5042002,
+        "chainIdHex": "0x4cef52",
+        "data": "0x4f72646572202334303932"
+      },
+      "status": "PENDING",
+      "createdAt": 1790170075603,
+      "expiresAt": 1790173675603
+    }
+  },
+  "transfers": {
+    "tx_1790168301150_87yg2": {
+      "id": "tx_1790168301150_87yg2",
+      "type": "PREPARED",
+      "senderAddress": "9WzDXwBbmkg8ZTbNMqUxvQRAyrZzDsGYdLVL9zYtAWWM",
+      "recipientAddress": "7xKXtg2CW87d97TXJSDpbD5jBkheTqA83TZRuJosgAsU",
+      "amount": 10,
+      "memo": "Wallet to Wallet transfer",
+      "status": "PENDING",
+      "createdAt": 1790168301150,
+      "updatedAt": 1790168301150
+    },
+    "tx_1790168301161_aoxn6": {
+      "id": "tx_1790168301161_aoxn6",
+      "type": "SERVER_SEND",
+      "senderAddress": "ServerTreasuryWallet111111111111111111111111",
+      "recipientAddress": "7xKXtg2CW87d97TXJSDpbD5jBkheTqA83TZRuJosgAsU",
+      "amount": 5,
+      "memo": "Treasury payout",
+      "signature": "sim_tx_1790168301161_umx5ueo",
+      "status": "CONFIRMED",
+      "createdAt": 1790168301161,
+      "updatedAt": 1790168301161
+    }
+  }
+}
